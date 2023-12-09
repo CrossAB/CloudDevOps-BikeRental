@@ -1,0 +1,57 @@
+<!-- create_station.html -->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Create Station</title>
+    <style>
+        /* Styles for the form and page */
+        body {
+            background-color: #ffcccc; /* Light pink background */
+            font-family: Arial, sans-serif;
+        }
+
+        .form-container {
+            background-color: white;
+            border-radius: 10px;
+            padding: 20px;
+            margin: 20px auto;
+            width: 60%;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+        }
+
+        h1 {
+            color: #ff6699; /* Pink color for the heading */
+        }
+
+        label {
+            color: #ff6699; /* Pink color for labels */
+        }
+
+        button[type="submit"] {
+            background-color: #ff6699; /* Pink button */
+            color: white;
+            padding: 10px 20px;
+            border: none;
+            border-radius: 5px;
+            cursor: pointer;
+            transition: background-color 0.3s ease;
+        }
+
+        button[type="submit"]:hover {
+            background-color: #ff3366; /* Darker shade of pink on hover */
+        }
+    </style>
+</head>
+<body>
+    <div class="form-container">
+        <h1>Create Station</h1>
+        <form method="post">
+            {% csrf_token %}
+            {{ form.as_p }}
+            <button type="submit">Create Station</button>
+        </form>
+    </div>
+</body>
+</html>
+</html>
