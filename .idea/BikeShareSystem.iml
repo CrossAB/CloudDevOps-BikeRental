@@ -22,6 +22,16 @@
     <orderEntry type="library" name="R User Library" level="project" />
     <orderEntry type="library" name="R Skeletons" level="application" />
   </component>
+  <component name="PyNamespacePackagesService">
+    <option name="namespacePackageFolders">
+      <list>
+        <option value="$MODULE_DIR$/env/Lib" />
+        <option value="$MODULE_DIR$/env/Scripts" />
+        <option value="$MODULE_DIR$/env/share" />
+        <option value="$MODULE_DIR$/env" />
+      </list>
+    </option>
+  </component>
   <component name="TemplatesService">
     <option name="TEMPLATE_CONFIGURATION" value="Django" />
   </component>
