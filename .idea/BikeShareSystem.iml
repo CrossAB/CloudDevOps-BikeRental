@@ -28,7 +28,6 @@
         <option value="$MODULE_DIR$/env/Lib" />
         <option value="$MODULE_DIR$/env/Scripts" />
         <option value="$MODULE_DIR$/env/share" />
-        <option value="$MODULE_DIR$/env" />
       </list>
     </option>
   </component>
