@@ -104,8 +104,8 @@
   <component name="GithubPullRequestsUISettings">
     <option name="selectedUrlAndAccountId">
       <UrlAndAccount>
-        <option name="accountId" value="34beebdd-3842-4c6d-8884-50626a109ba8" />
-        <option name="url" value="https://github.com/CrossAB/CloudDevOpsSec-BikeRental.git" />
+        <option name="accountId" value="705472a4-b72b-46d9-b796-8b60dc65a007" />
+        <option name="url" value="https://github.com/CrossAB/DevOpsSec-BikeRental.git" />
       </UrlAndAccount>
     </option>
   </component>
@@ -226,7 +226,7 @@
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "git-widget-placeholder": "main",
-    "last_opened_file_path": "D:/NCI/Devops/Bike-Share-master",
+    "last_opened_file_path": "D:/NCI/Devops2/Bike-Share-master",
     "settings.editor.selected.configurable": "org.jetbrains.plugins.github.ui.GithubSettingsConfigurable"
   }
 }]]></component>
