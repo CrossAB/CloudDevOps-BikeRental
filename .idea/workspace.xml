@@ -5,7 +5,11 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="c759b705-4e97-422b-81d4-2278199300e5" name="Default Changelist" comment="project">
+      <change afterPath="$PROJECT_DIR$/BikeShareSystem/.github/workflows/build.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/BikeShareSystem/.github/workflows/sonarqube.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/BikeShareSystem/sonar-project.properties" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/db.sqlite3" beforeDir="false" afterPath="$PROJECT_DIR$/db.sqlite3" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -105,7 +109,7 @@
     <option name="selectedUrlAndAccountId">
       <UrlAndAccount>
         <option name="accountId" value="705472a4-b72b-46d9-b796-8b60dc65a007" />
-        <option name="url" value="https://github.com/CrossAB/DevOpsSec-BikeRental.git" />
+        <option name="url" value="https://github.com/CrossAB/CloudDevOps-BikeRental.git" />
       </UrlAndAccount>
     </option>
   </component>
