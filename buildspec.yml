@@ -19,7 +19,7 @@ phases:
     commands:
       #- pylint $CODEBUILD_SRC_DIR/*.py
       #- pylint $CODEBUILD_SRC_DIR/*/*.py
-      - sonar-scanner -Dsonar.organization=crossab-1 -Dsonar.projectKey=CrossAB_CloudDevOps-BikeRental -Dsonar.sources=. -Dsonar.host.url=https://sonarcloud.io -Dsonar.login=85df54ede5853b7b3fa2cd811c940b5f40e1f1eb
+      - sonar-scanner -Dsonar.organization=crossab-1 -Dsonar.projectKey=CrossAB_CloudDevOps-BikeRental -Dsonar.sources=. -Dsonar.host.url=https://sonarcloud.io -Dsonar.login=85df54ede5853b7b3fa2cd811c940b5f40e1f1eb -Dsonar.c.file.suffixes=- -Dsonar.cpp.file.suffixes=- -Dsonar.objc.file.suffixes=-
       - sleep 5
       - curl https://sonarcloud.io/api/qualitygates/project_status?projectKey=CrossAB_CloudDevOps-BikeRental > analysis.json
       - cat analysis.json
