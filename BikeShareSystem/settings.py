@@ -25,7 +25,7 @@ SECRET_KEY = '1gz#i=+o=55o)--jzj-m6tzv755$8m^i!$(p^d)ib=#^m^9lf9'
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
-ALLOWED_HOSTS = ['x22190619-devsecapp-env.eba-bnrxe24m.us-east-1.elasticbeanstalk.com']
+ALLOWED_HOSTS = ['x22190619-devsec-i-env.eba-eqmp4kac.us-east-2.elasticbeanstalk.com']
 
 
 # Application definition
